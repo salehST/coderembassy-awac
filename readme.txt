@@ -4,7 +4,7 @@ Tags: woocommerce, accessibility, wcag, audit, a11y
 Requires at least: 6.5
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 0.3.6
+Stable tag: 1.0.0
 Requires Plugins: woocommerce
 WC requires at least: 8.3
 WC tested up to: 10.9
@@ -74,33 +74,5 @@ or capture payment-iframe content.
 
 == Changelog ==
 
-= 0.3.6 =
-* Kept the Audit page URL and viewport controls inside their responsive card
-  columns at narrow WordPress workspace widths.
-
-= 0.3.5 =
-* Fixed the Issues filter card so its controls reflow from four columns to two
-  and then one without escaping the card or forcing horizontal overflow.
-
-= 0.3.4 =
-* Extended the neutral dashboard extension contract so separately packaged
-  add-ons can provide an icon, with the generic add-on icon as the fallback.
-
-= 0.3.3 =
-* Added a neutral active-extension badge slot to the shared dashboard hero.
-  Separately packaged add-ons supply their own status and version.
-
-= 0.3.2 =
-* Added a neutral add-on extension contract for the shared AWAC dashboard.
-  The Free package still contains no Pro workflow, licensing, or upgrade UI.
-
-= 0.3.1 =
-* Removed Pro licensing, Pro workflow placeholders, and Pro backend classes
-  from the Free package. Pro functionality now lives only in the separately
-  packaged CoderEmbassy AWAC Pro add-on.
-
-= 0.3.0 =
-* Evidence-first Audit, Issues, Manual Checks, Statement, Reports, and Help
-  workspaces.
-* Same-origin runner links, redaction, scan hygiene, safe mode, and retention
-  controls.
+= 1.0.0 =
+* Initial release
